@@ -1,0 +1,53 @@
+Projeto Seguradora SA.
+Crie uma classe denominada Apolice com os seguintes atributos: 
+• nomeSegurado;
+• idade;
+• valorPremio. 
+Implemente nessa classe, além dos métodos para garantir o encapsulamento 
+dos atributos, os métodos descritos a seguir: 
+Método Descrição
+imprimir() Este método não retorna valor e deverá mostrar na 
+tela todos os atributos da classe Apolice. 
+Para imprimir em Java usa-se o comando 
+System.out.println(NOME_ATRIBUTO)
+calcularPremioApolice() Este método não retorna valor e deverá calcular o 
+valor do prêmio seguindo as seguintes regras: caso a 
+idade seja maior ou igual a 18 e menor ou igual a 25 
+anos, use a fórmula: valorPremio += (valorPremio * 
+20)/100. 
+Quando a idade for superior a 25 e menor ou igual a 
+36 anos, use a fórmula 
+valorPremio += (valorPremio * 15)/100. 
+Quando a idade for superior que 36 anos, use a 
+fórmula valorPremio += (valorPremio * 10)/100.
+oferecerDesconto() Este método não retorna valor, mas recebe o 
+parâmetro cidade, que irá conter o nome da cidade 
+para o cálculo do desconto. 
+Caso a cidade seja Manaus, dê um desconto no valor 
+do prêmio de 20%. 
+Caso seja Belém, dê um desconto no valor do prêmio 
+de 15%. 
+Caso seja Belo Horizonte, dê um desconto no valor do 
+prêmio de 10%. 
+Caso a cidade seja São Paulo, dar um desconto no 
+valor do prêmio de 5%. 
+Para realizar a comparação de Strings em Java, 
+utilizam-se os métodos equals(“Palavra para 
+comparar”) ou equalsIgnoreCase(“Palavra para 
+comparar”).
+Crie outra classe denominada PrincipalApolice seguindo as seguintes 
+instruções: 
+• Criar um método main() conforme o padrão da linguagem Java. Nesse 
+método, criar um objeto do tipo da classe Apolice usando o comando: 
+Apolice novoObj = new Apolice();
+Para cada atributo do objeto, atribuir um valor coerente. Você pode utilizar a 
+classe Scanner para ler valores informados no console pelo usuário.
+• Executar o método imprimir() e analisar o que será impresso na tela 
+(console). 
+• Em seguida, executar o método calcularPremioApolice().
+• Executar o método imprimir() novamente e analisar o que será impresso na 
+tela (console). 
+• Executar o método oferecerDesconto() passando como parâmetro a cidade de 
+Belo Horizonte.
+• Executar o método imprimir() novamente e analisar o que será impresso na 
+tela (console).
